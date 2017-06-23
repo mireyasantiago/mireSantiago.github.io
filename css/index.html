@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+</head>
+<body>
+  <!--contenedor general-->
+  <div class="container-fluid">
+
+
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><img src="assets/mi.png" class="magen__what" alt="#"></a>
+          <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#modal1"  >Acerca de mi</a></li>
+            <li><a href="#fondo__habilidad">Habilidades</a></li>
+            <li><a href="#fondo__proyecto">Proyectos</a></li>
+            <li><a href="#modal4">Contactame</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <!--se mostrara en movile -->
+    <ul id="slide-out" class="side-nav">
+      <li>
+        <div class="userView">
+          <div class="background">
+            <img src="assets/faro.jpeg">
+          </div >
+          <a href="#!user"><img class="circle" src="assets/utiles.jpg"></a>
+          <a href="#!name"><span class="white-text name">Mireya L. Santiago</span></a>
+          <a href="#!email"><span class="white-text email">mireyasantiago105@gmail.com</span></a>
+        </div>
+      </li>
+      <li><a href="#modal1" >Acerca de mi</a></li>
+      <li><a href="#fondo__habilidad">Habilidades</a></li>
+      <li><a href="#fondo__proyecto">Proyectos</a></li>
+      <li><a href="#areaContacto">Contactame</a></li>
+    </ul>
+
+    <!-- Area de presentacion-->
+    <div class="row fondos" id="fondo_presentacion">
+      <div class="col l4 offset-l4 s6 offset-s6 ">
+        <h1  class=" margen__h1 color__textoNombre">Mireya Lopez Santiago</h1>
+        <h3 class="color__textoNombre">Front-End Developer</h3>
+        <a class="waves-effect waves-light btn mover" id="boton" href="./assets/cv/micv.pdf" download="Mireya-CV" target="_blank">
+          <i class="material-icons left">system_update_alt</i>Mi CV
+        </a>
+
+      </div>
+    </div>
+
+    <!--  area de habilidades -->
+    <div class="row fondos" id="fondo__habilidad">
+      <div class="col l9 s8">
+        <h3 class="center white-text">Habilidades</h3>
+      </div>
+      <div class="col l3 s4">
+        logo de un cerebro
+      </div>
+
+      <div class="row">
+        <div class="col l4 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator responsive-img  imagen__habilidades" src="assets/frameworknuevo.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"><h3>FRAMEWORK</h3><i class="material-icons right">more_vert</i></span>
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Uso de Framework:<i class="material-icons right">close</i></span>
+                <img class=" responsive-img imagenes" src="assets/frameworksunido.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="col l4 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator responsive-img imagen__habilidades" src="assets/front.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"><h3>FRONT-END</h3><i class="material-icons right">more_vert</i></span>
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Herramientas de desarrollo<i class="material-icons right">close</i></span>
+                  <img src="assets/languages.png" class="responsive-img " alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col l4 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator responsive-img " src="assets/gitNuevo.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"><h3>CONTROL DE VERSIONES</h3><i class="material-icons right">more_vert</i></span>
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Sistema para el control de versiones<i class="material-icons right">close</i></span>
+              <img src="assets/gestor.jpg" class="responsive-img " alt="">
+              <p>Manejo de ramas y trabajo colaborativo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!--  area de proyecto--->
+
+
+  <div class="row fondos" id="fondo__proyecto">
+    <div class="col l4 s12">
+
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/captura1.png" alt="" class="responsive-img ">
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://mireyasantiago.github.io/Freelancer/">ver</a>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col l4 s12">
+
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/applove.png" class="responsive-img " alt="">
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://mireyasantiago.github.io/serpiente/">ver</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col l4 s12">
+
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/captura1.png" class="responsive-img " alt="">
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">ver</a>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <!-- area del contacto-->
+        <div class="row color__contacto hide-on-large-only " id="areaContacto">
+          <div >
+            <h3 class="margen__h1">Contáctame por medio de: </h3>
+          </div>
+          <div class="row">
+            <div class="col l3 s3">
+              <a id="margin"  title="GitHub" href="https://github.com/mireyasantiago" target="_blank"><img src="assets/github_icon.png"></a>
+            </div>
+            <div class="col l3 s3">
+              <a  title="WhatsApp" href="https://api.whatsapp.com/send?phone=5571374772" target="_blank"><img src="assets/app.png" class="magen__what" alt="#"></a>
+            </div>
+            <div class="col l3 s3">
+              <a  title="Email" href="mailto:mireyasantiago105@gmail.com"><img src="assets/mail.png"></a>
+            </div>
+            <div class="col l3 s3">
+              <a  title="Celular" href="tel:55 7137 4772"><img src="assets/cel.png"></a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- Modal acerca de mi -->
+      <div id="modal1" class="modal">
+        <div class="modal-content fondos" id="fondo__presentacion">
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card-panel teal">
+                <h4 class="white-text">¡Hola, bienveni@!</h4>
+                <p class="white-text">Me llamo Mireya, soy una persona curiosa, paciente, comprometida
+                  y decidida.Ser “Desarrolladora Web” me abre un sinfín de oportunidades para concretar
+                  todo lo que me imagine.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Modal  contacto-->
+        <div id="modal4" class="modal">
+          <div class="row color__contacto ">
+            <div >
+              <h3 class="margen__h1">Contáctame por medio de: </h3>
+            </div>
+            <div class="row">
+              <div class="col l3 s3">
+                <a id="margin"  title="GitHub" href="https://github.com/mireyasantiago" target="_blank"><img src="assets/github_icon.png" class="responsive-img "></a>
+              </div>
+              <div class="col l3 s3">
+                <a  title="WhatsApp" href="https://api.whatsapp.com/send?phone=5571374772" target="_blank"><img src="assets/app.png" class="magen__what responsive-img " alt="#"></a>
+              </div>
+              <div class="col l3 s3">
+                <a  title="Email" href="mailto:mireyasantiago105@gmail.com"><img src="assets/mail.png" class="responsive-img "></a>
+              </div>
+              <div class="col l3 s3">
+                <a  title="Celular" href="tel:55 7137 4772"><img src="assets/cel.png " class="responsive-img "></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/arbol.js"></script>
+</body>
+</html>
