@@ -1,0 +1,96 @@
+
+@media (min-width: 1024px) {
+  .name__margin {
+    margin-top: 15%; }
+
+  .borde__margin {
+    margin: 20px; }
+  }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .name__margin {
+    margin-top: 15%; }
+
+  .borde__margin {
+    margin: 20px;
+  }
+
+
+
+
+
+
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .name__margin-movil {
+    margin-top: 50%; }
+
+  h1 {
+    font-size: 18px; }
+
+  h2 {
+    font-size: 13px; }
+
+  .borde__margin-movil {
+    margin: 2px; }
+
+
+  }
+
+
+
+/*realizar media @ para texto*/
+
+@media screen  and (max-width: 519px) and (min-width: 200px){
+  div#fondo_presentacion {
+    height: 40vh;
+  }
+  h1{
+    font-size: 25px;
+    text-align: center;
+    top: 200px;
+    width: 100%;
+  }
+  h3{
+    font-size: 15px;
+    text-align: center;
+    top: 200px;
+
+  }
+  h4{
+    font-size: 13px;
+
+  }
+
+  p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 520px){
+  div#fondo_presentacion {
+    height: 80vh;
+  }
+  h1{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  div#fondo1 {
+    height: 80vh;
+  }
+  h1{
+    text-align: center;
+
+
+  }
+  h3{
+    text-align: center;
+    top: 200px;
+    width: 100%;
+  }
+
+
+
+
+}
