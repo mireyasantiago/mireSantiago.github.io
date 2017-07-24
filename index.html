@@ -6,318 +6,274 @@
   <title></title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/ihover.min.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/css/main.css">
   <link rel="stylesheet" href="/css/media-query.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-
-  <div id="wrapper"><!-- clase de bootstrap la cual sirve de envoltura para el contenido-->
-    <div id="cubrir"></div>
-
-    <nav class="navbar navbar-default navbar-fixed-top ">
-      <div class="container-fluid">
-        <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Brand</a>
+  <div id="barra-lateral">
+    <div id="logo-menu">
+      <img src="assets/003-list.png" alt="">
+    </div>
+    <div id="contenedor-logos-primero" class="contenedor-logos">
+      <div class="logo">
+        <img src="assets/002-man-user.png" alt="">
       </div>
-      <div id="bs-example-navbar-collapse-1"  >
-        <ul class="nav nav-justified ">
-          <li class="">
-            <a href="#">Inicio</a>
-          </li>
-          <li>
-            <a href="#area__sobre-mi">Acerca de mi</a>
-          </li>
-          <li>
-            <a href="#area__habilidad">Habilidades</a>
-          </li>
-          <li>
-            <a href="#area__proyecto">Proyectos</a>
-          </li>
-          <li>
-            <a href="#area__contacto">Contáctame</a>
-          </li>
-        </ul>
+      <a class="title-menu" href="#area__sobre-mi">Acerca de mi</a>
+    </div>
 
+    <div class="contenedor-logos">
+      <div class="logo">
+        <img src="assets/005-male-brain.png" class="menu__imagen" alt="">
       </div>
+      <a class="title-menu" href="#area__habilidad">Habilidades</a>
+    </div>
 
-
-
+    <div class="contenedor-logos">
+      <div class="logo">
+        <img src="assets/003-work-briefcase.png" class="menu__imagen" alt="">
       </div>
+      <a class="title-menu" href="#area__proyecto">Proyectos</a>
+    </div>
 
-      <!-- area del navegador -->
-      <nav class="navbar navbar-inverse navbar-fixed-top hidden-xs" id="icono-navegacion"  role="navigation">
-        <ul class="nav nav-justified barra-lateral">
-          <li class="barra__secciones">
-            <a href="#">Inicio</a>
-          </li>
-          <li>
-            <a href="#area__sobre-mi">Acerca de mi</a>
-          </li>
-          <li>
-            <a href="#area__habilidad">Habilidades</a>
-          </li>
-          <li>
-            <a href="#area__proyecto">Proyectos</a>
-          </li>
-          <li>
-            <a href="#area__contacto">Contáctame</a>
-          </li>
-        </ul>
-      </nav>
-
-    </nav>
-
-
-
-    <div id="contenido-pagina" >
-      <div class="menu desplazar hidden-xs" >
-        <a href="#">
-          <img src="assets/005-interface.png" class="img-responsive iconos" alt="image">
-        </a>
+    <div class="contenedor-logos">
+      <div class="logo">
+        <img src="assets/004-phone-book.png" class="menu__imagen" alt="">
       </div>
-
-
-      <div class="container" >
-
-        <section class="row fondos" id="fondo_presentacion" >
-          <div class="col-lg-12">
-            <div class="row">
-              <div class="fondo2  col-xs-8 col-xs-offset-2 col-lg-offset-3 col-lg-6 nombre__margen " >
-                <h1 class="text-center">MIREYA LOPEZ SANTIAGO</h1>
-                <h2 class="text-center">FRONT-END</h2>
-              </div>
-            </div>
-            <div class="row ">
-              <div class="col-xs-8 col-xs-offset-2  col-lg-offset-4 col-lg-5">
-                <button type="button" class="btn color__botón">
-                  <a class="waves-effect waves-light btn " id="boton" href="./assets/cv/micv.pdf" download="Mireya-CV" target="_blank">
-                    <i class="material-icons left">system_update_alt</i>Mi CV
-                  </a>
-                </button>
-              </div>
-            </div>
-
-            <div class="row nombre__margen" id="contacto">
-              <div class="col-lg-8 col-lg-offset-2">
-                <div class="row">
-                  <div class="col-lg-3 ">
-                    <a id="margin"  title="GitHub" href="https://github.com/mireyasantiago" target="_blank"><img src="assets/github-logo.png"></a>
-                  </div>
-                  <div class="col-lg-3 ">
-                    <a  title="WhatsApp" href="https://api.whatsapp.com/send?phone=5571374772" target="_blank"><img src="assets/what.png" class="magen__what" alt="#"></a>
-                  </div>
-                  <div class="col-lg-3 ">
-                    <a  title="Email" href="mailto:mireyasantiago105@gmail.com"><img src="assets/email.png"></a>
-                  </div>
-                  <div class="col-lg-3 ">
-                    <a  title="telefono" href="tel:58476058"><img src="assets/phone.png"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-          </div>
-
-        </section>
-
-        <section class="row fondos"  id="area__sobre-mi">
-          <div class=" col-lg-offset-4 col-lg-5 ">
-            <h3 class="text-center nombre__margen">Acerca de mi </h3>
-            <p class="text-center nombre__margen">Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail
-              pancetta ball tip doner meatloaf corned beef. Kevin pastrami tri-tip prosciutto
-              ham hock pork belly bacon pork loin salami pork chop shank corned beef tenderloin
-              meatball cow. Pork bresaola meatloaf tongue, landjaeger tail andouille strip steak
-              tenderloin sausage chicken tri-tip. Pastrami tri-tip kielbasa sausage porchetta pig
-              sirloin boudin rump meatball andouille chuck tenderloin biltong shank
-            </p>
-
-          </div>
-        </section>
-
-        <section class="row" id="area__habilidad">
-          <h3 class="text-center">Habilidades</h3>
-          <div class="col-lg-12">
-            <div class="row">
-              <div class="col-lg-offset-1 col-lg-10">
-                <h3>Framework</h3>
-
-                <div class="row">
-                  <div class="col-xs-6  col-lg-offset-2 col-lg-3">
-                    <a href="#" class="thumbnail">
-                      <img src="assets/materalize1.png" alt="...">
-                    </a>
-                  </div>
-                  <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                      <img src="assets/bootstrap1.0.jpg" alt="...">
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-offset-1 col-lg-10">
-                <h3>Herramientas de desarrollo</h3>
-                <div class="row">
-                  <div class="col-xs-6 col-lg-3">
-                    <a href="#" class="thumbnail">
-                      <img src="assets/html5.png" alt="...">
-                    </a>
-                  </div>
-                  <div class="col-xs-6  col-lg-3">
-                    <a href="#" class="thumbnail">
-                      <img src="assets/css3.png" alt="...">
-                    </a>
-                  </div>
-                  <div class="col-xs-6  col-lg-3">
-                    <a href="#" class="thumbnail">
-                      <img src="assets/jquery.png" alt="...">
-                    </a>
-                  </div>
-                  <div class="col-xs-6  col-lg-3">
-                    <a href="#" class="thumbnail">
-                      <img src="assets/jsAmarillo.png" alt="...">
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-offset-1 col-lg-10">
-                <h3>Sistema de control de versiones</h3>
-                <div class="row">
-                  <div class="col-xs-6  col-lg-offset-2 col-lg-3">
-                    <a href="#" class="thumbnail">
-                      <img src="assets/gitGris.png" alt="...">
-                    </a>
-                  </div>
-                  <div class="col-xs-6 col-lg-3">
-                    <a href="#" class="thumbnail">
-                      <img src="assets/gato.png" alt="...">
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="row" id="area__proyecto">
-          <h3>Mis Proyectos</h3>
-          <div class=" col-lg-4">
-            <div class="ih-item square colored effect4">
-              <a href="#">
-                <div class="img"><img src="assets/Captura1.png" alt="img"></div>
-                <div class="mask1"></div>
-                <div class="mask2"></div>
-                <div class="info">
-                  <h3>Heading here</h3>
-                  <p>Description goes here</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="ih-item square colored effect4">
-              <a href="#">
-                <div class="img"><img src="assets/applove.png" alt="img"></div>
-                <div class="mask1"></div>
-                <div class="mask2"></div>
-                <div class="info">
-                  <h3>Heading here</h3>
-                  <p>Description goes here</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="ih-item square colored effect4">
-              <a href="#">
-                <div class="img"><img src="assets/Captura1.png" alt="img"></div>
-                <div class="mask1"></div>
-                <div class="mask2"></div>
-                <div class="info">
-                  <h3>Heading here</h3>
-                  <p>Description goes here</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-offset-4 col-lg-4">
-              <div class="ih-item square colored effect4">
-                <a href="#">
-                  <div class="img"><img src="assets/Captura1.png" alt="img"></div>
-                  <div class="mask1"></div>
-                  <div class="mask2"></div>
-                  <div class="info">
-                    <h3>Heading here</h3>
-                    <p>Description goes here</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-
-        </section>
-
-
-        <footer id="area__contacto">
-          <h3>Contáctame:</h3>
-          <div class="row">
-
-            <div class="col-lg-offset-3 col-lg-2 ">
-              <a id="margin"  title="GitHub" href="https://github.com/mireyasantiago" target="_blank">
-                <img src="assets/github-logo.png">
-              </a>
-              <p>GitHub</p>
-            </div>
-            <div class="col-lg-2 ">
-              <a  title="WhatsApp" href="https://api.whatsapp.com/send?phone=5571374772" target="_blank">
-                <img src="assets/what.png"alt="#">
-              </a>
-              <p>Celular</p>
-            </div>
-            <div class="col-lg-2">
-              <a  title="Email" href="mailto:mireyasantiago105@gmail.com">
-                <img src="assets/email.png">
-              </a>
-              <p>Gmail</p>
-            </div>
-            <div class="col-lg-2 ">
-              <a  title="Celular" href="tel:55 7137 4772">
-                <img src="assets/phone.png">
-              </a>
-              <p>Telefono</p>
-            </div>
-
-          </div>
-          <div class="row">
-            <div class="col-lg-offset-5 col-lg-3">
-              <small>creacion de Mireya Lopez Santiago, 2017 ©</small>
-            </div>
-          </div>
-        </footer>
-
-
-
-
-
-      </div>
+      <a class="title-menu"href="#area__contacto">Contáctame</a>
     </div>
   </div>
+
+  <!-- Area de contenido-->
+  <div id="body">
+    <div class="container" >
+
+      <section class="row fondos" id="fondo_presentacion" >
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="fondo2  col-xs-8 col-xs-offset-2 col-lg-offset-3 col-lg-6 nombre__margen " >
+              <h1 class="text-center">MIREYA LOPEZ SANTIAGO</h1>
+              <h2 class="text-center">FRONT-END</h2>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-xs-8 col-xs-offset-2  col-lg-offset-4 col-lg-5">
+              <button type="button" class="btn color__botón">
+                <a class="waves-effect waves-light btn " id="boton" href="./assets/cv/micv.pdf" download="Mireya-CV" target="_blank">
+                  <i class="material-icons left">system_update_alt</i>Mi CV
+                </a>
+              </button>
+            </div>
+          </div>
+
+          <div class="row nombre__margen" id="contacto">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="row">
+                <div class="col-lg-3 ">
+                  <a id="margin"  title="GitHub" href="https://github.com/mireyasantiago" target="_blank"><img src="assets/github-logo.png"></a>
+                </div>
+                <div class="col-lg-3 ">
+                  <a  title="WhatsApp" href="https://api.whatsapp.com/send?phone=5571374772" target="_blank"><img src="assets/what.png" class="magen__what" alt="#"></a>
+                </div>
+                <div class="col-lg-3 ">
+                  <a  title="Email" href="mailto:mireyasantiago105@gmail.com"><img src="assets/email.png"></a>
+                </div>
+                <div class="col-lg-3 ">
+                  <a  title="telefono" href="tel:58476058"><img src="assets/phone.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="row fondos"  id="area__sobre-mi">
+        <div class=" col-lg-offset-4 col-lg-5 ">
+          <h3 class="text-center nombre__margen">Acerca de mi </h3>
+          <p class="text-center nombre__margen">Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail
+            pancetta ball tip doner meatloaf corned beef. Kevin pastrami tri-tip prosciutto
+            ham hock pork belly bacon pork loin salami pork chop shank corned beef tenderloin
+            meatball cow. Pork bresaola meatloaf tongue, landjaeger tail andouille strip steak
+            tenderloin sausage chicken tri-tip. Pastrami tri-tip kielbasa sausage porchetta pig
+            sirloin boudin rump meatball andouille chuck tenderloin biltong shank
+          </p>
+
+        </div>
+      </section>
+
+      <section class="row" id="area__habilidad">
+        <h3 class="text-center">Habilidades</h3>
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-offset-1 col-lg-10">
+              <h3>Framework</h3>
+
+              <div class="row">
+                <div class="col-xs-6  col-lg-offset-2 col-lg-3">
+                  <a href="#" class="thumbnail">
+                    <img src="assets/materalize1.png" alt="...">
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <a href="#" class="thumbnail">
+                    <img src="assets/bootstrap1.0.jpg" alt="...">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-offset-1 col-lg-10">
+              <h3>Herramientas de desarrollo</h3>
+              <div class="row">
+                <div class="col-xs-6 col-lg-3">
+                  <a href="#" class="thumbnail">
+                    <img src="assets/html5.png" alt="...">
+                  </a>
+                </div>
+                <div class="col-xs-6  col-lg-3">
+                  <a href="#" class="thumbnail">
+                    <img src="assets/css3.png" alt="...">
+                  </a>
+                </div>
+                <div class="col-xs-6  col-lg-3">
+                  <a href="#" class="thumbnail">
+                    <img src="assets/jquery.png" alt="...">
+                  </a>
+                </div>
+                <div class="col-xs-6  col-lg-3">
+                  <a href="#" class="thumbnail">
+                    <img src="assets/jsAmarillo.png" alt="...">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-offset-1 col-lg-10">
+              <h3>Sistema de control de versiones</h3>
+              <div class="row">
+                <div class="col-xs-6  col-lg-offset-2 col-lg-3">
+                  <a href="#" class="thumbnail">
+                    <img src="assets/gitGris.png" alt="...">
+                  </a>
+                </div>
+                <div class="col-xs-6 col-lg-3">
+                  <a href="#" class="thumbnail">
+                    <img src="assets/gato.png" alt="...">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="row" id="area__proyecto">
+        <h3>Mis Proyectos</h3>
+        <div class=" col-lg-4">
+          <div class="ih-item square colored effect4">
+            <a href="#">
+              <div class="img"><img src="assets/Captura1.png" alt="img"></div>
+              <div class="mask1"></div>
+              <div class="mask2"></div>
+              <div class="info">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="ih-item square colored effect4">
+            <a href="#">
+              <div class="img"><img src="assets/applove.png" alt="img"></div>
+              <div class="mask1"></div>
+              <div class="mask2"></div>
+              <div class="info">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="ih-item square colored effect4">
+            <a href="#">
+              <div class="img"><img src="assets/Captura1.png" alt="img"></div>
+              <div class="mask1"></div>
+              <div class="mask2"></div>
+              <div class="info">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-offset-4 col-lg-4">
+            <div class="ih-item square colored effect4">
+              <a href="#">
+                <div class="img"><img src="assets/Captura1.png" alt="img"></div>
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="info">
+                  <h3>Heading here</h3>
+                  <p>Description goes here</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <footer id="area__contacto">
+        <h3>Contáctame:</h3>
+        <div class="row">
+
+          <div class="col-lg-offset-3 col-lg-2 ">
+            <a id="margin"  title="GitHub" href="https://github.com/mireyasantiago" target="_blank">
+              <img src="assets/github-logo.png">
+            </a>
+            <p>GitHub</p>
+          </div>
+          <div class="col-lg-2 ">
+            <a  title="WhatsApp" href="https://api.whatsapp.com/send?phone=5571374772" target="_blank">
+              <img src="assets/what.png"alt="#">
+            </a>
+            <p>Celular</p>
+          </div>
+          <div class="col-lg-2">
+            <a  title="Email" href="mailto:mireyasantiago105@gmail.com">
+              <img src="assets/email.png">
+            </a>
+            <p>Gmail</p>
+          </div>
+          <div class="col-lg-2 ">
+            <a  title="Celular" href="tel:55 7137 4772">
+              <img src="assets/phone.png">
+            </a>
+            <p>Telefono</p>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-lg-offset-5 col-lg-3">
+            <small>creacion de Mireya Lopez Santiago, 2017 ©</small>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+
+
+
 
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>

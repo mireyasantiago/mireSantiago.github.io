@@ -1,157 +1,88 @@
-body{
-  background-color: #F2F3F4;
-  position: absolute;/*checar para movil*/
-}
-.row{
-  margin: 0;
-  padding: 0;
-}
-h3, h1, p, h4{
-  font-family: 'Josefin Sans', sans-serif;
-}
-.movil{
-  width: 50%;
-  /*checar para movil*/
+*{
+	margin:0px;
+	padding:0px;
+	font-family: verdana;
+	color:#bcbcbc;
 }
 
-/* area de estilos para las imagenes*/
-.fondos{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  height: 90vh;
-}
 #fondo_presentacion{
   background-image: url("../assets/fondoConoce.jpg");
 }
-#fondo__boton{
-  background-image: url("../assets/003-multimedia.png");
+#fondo__habilidad{
+  background-image: url("../assets/gris.jpg");
 }
-.iconos {
-  width: 10vh;
+#fondo__proyecto{
+  background-image: url("assets/whatsap.jpg");
 }
-
-/* area de estilos para el navegador*/
-#wrapper {
-  padding-left: 0;
-  transition: all 0.5s ease;
+.fondos{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
-
-#wrapper.cambiado {
-  padding-left: 220px;
-}
-
-#icono-navegacion {
-  left: 220px;
-  width: 0;  /*para que no aparesca a simple vista*/
-  height: 100%;
-  margin-left: -220px;
-  /*para recorrer al lado derecho*/
-  overflow-y: auto;
-  overflow-x: hidden;;/*para ocultar los desbordes*/
-  background: #1E8449;/*color menu*/
-  transition: all 0.80s ease; }
-
-#wrapper.cambiado #icono-navegacion {
-  width: 220px;  /*ancho de nav*/
-}
-#contenido-pagina {
-  max-width: 100%;
-  padding-top: 10px;
-}
-#wrapper.cambiado #contenido-pagina {
-  position: absolute;
-  margin-right: -220px;
-}
-.barra-lateral {
-  position: absolute;
-  top: 0;
-  width: 210px;
-  margin: 0;
-  padding: 20px;
-  list-style: none;
-}
-  .barra-lateral li {
-    position: relative;
-    line-height: 50px;
-    display: inline-block;
-    width: 100%;
-    line-height: 15vh;
-  }
-  .barra-lateral li:hover:before {
-    width: 100%;
-    transition: width .2s ease-in;
-  }
-  .barra-lateral a {
-    display: block;
-    color: #F9E79F;
-    text-decoration: none;
-    padding: 10px 15px 10px 30px;
-  }
-
-.barra-lateral li:before {
-  content: '';  /*se pondra el contenido generado antes y despues*/
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  height: 100%;
-  width: 3px;
-  background-color:  #1E8449;
-  transition: width .2s ease-in;
-}
-.barra-lateral li:first-child a {
-  color: #F1C40F;
-  background-color: #1E8449;
-}
-.barra-lateral li:nth-child(2):before {
-  background-color: #148F77;
-
-}
-.barra-lateral li:nth-child(3):before {
-  background-color:  #1ABC9C;
-}
-.barra-lateral li:nth-child(4):before {
-  background-color:  #279636;
-}
-.barra-lateral li:nth-child(5):before {
-  background-color: #138D75;
+.menu__imagen{
+  width: 64px;
+  height: 64px;
 }
 
-.barra-lateral li a:hover,
-.barra-lateral li a:focus {
+/*menu lateral*/
+
+div#barra-lateral{
+	position:fixed;
+	width:80px;
+	height:100%;
+	background-color:#2f3030;
+	overflow:hidden;
+	-webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
+}
+
+div#barra-lateral:hover{
+	width:200px;
+}
+
+div#logo-menu{
+	width:30px;
+	height:30px;
+	margin:10px;
+}
+
+div#contenedor-logos-primero{
+	margin-top:100px;
+}
+
+div.contenedor-logos{
+	margin-top: 70px;
+	margin-left: 5px;
+	width:200px;
+	height:40px;
+
+}
+
+div.logo{
+	width:70px;
+	height:50px;
+	float: left;
+}
+
+a.title-menu{
+	display: inline-block;
+	line-height: 10px;
   color: #fff;
   text-decoration: none;
   background-color: transparent;
-}
-.barra-lateral .barra__secciones {
-  /*para el titulo*/
-  height: 65px;
-  font-size: 20px;
-  line-height: 44px;
+  padding: 5px;
+  margin-top: 20px;
 }
 
-/*  menu-deslizado */
-.menu {
-  position: fixed;
-  top: 20px;
-  z-index: 999;
-  display: block;
-  margin-left: 15px;
-}
-
-/*area de tstilos texto*/
-
-.nombre__margen{
-  margin-top: 150px;
+div#body{
+	position:absolute;
+	right:0px;
+	min-height:300px;
+	left:200px;
 }
 
 
-
-
-
-/*.color__contacto{
-
+.color__contacto{
   background: rgba(3,137,171,1);
 }
 
@@ -181,17 +112,62 @@ h3, h1, p, h4{
 .color__textoNombre{
   color: rgba(3,137,171,1);
 }
-
-
-*/
-
-/* estilos para botón*/
-.color__botón{
-  opacity: 0.5;
-filter:  alpha(opacity=50;
+h3, h1, p, h4{
+  font-family: 'Josefin Sans', sans-serif;
 }
-:hover {
- background: rgba(0,0,0,0);
- color: #3a7999;
- box-shadow: inset 0 0 0 3px #3a7999;
+
+
+/*realizar media @ para texto*/
+
+@media screen  and (max-width: 519px) and (min-width: 200px){
+  div#fondo_presentacion {
+    height: 40vh;
+  }
+  h1{
+    font-size: 25px;
+    text-align: center;
+    top: 200px;
+    width: 100%;
+  }
+  h3{
+    font-size: 15px;
+    text-align: center;
+    top: 200px;
+
+  }
+  h4{
+    font-size: 13px;
+
+  }
+
+  p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 520px){
+  div#fondo_presentacion {
+    height: 80vh;
+  }
+  h1{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  div#fondo1 {
+    height: 80vh;
+  }
+  h1{
+    text-align: center;
+
+
+  }
+  h3{
+    text-align: center;
+    top: 200px;
+    width: 100%;
+  }
+
+
 }
