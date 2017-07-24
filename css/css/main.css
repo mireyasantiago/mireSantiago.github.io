@@ -1,8 +1,10 @@
+body{
+	background-color: #FFFBD4;
+}
 *{
 	margin:0px;
 	padding:0px;
-	font-family: verdana;
-	color:#bcbcbc;
+	/*color:#bcbcbc;*/
 }
 
 #fondo_presentacion{
@@ -23,15 +25,21 @@
 .menu__imagen{
   width: 64px;
   height: 64px;
+	color: #48464F;
 }
-
+.texto__color--verdeClaro{
+	color: #189D41;
+}
+.texto__color--verde{
+	color: #116E2D;
+}
 /*menu lateral*/
 
 div#barra-lateral{
 	position:fixed;
 	width:80px;
 	height:100%;
-	background-color:#2f3030;
+	background-color:#2CB234;
 	overflow:hidden;
 	-webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
 }
@@ -67,7 +75,7 @@ div.logo{
 a.title-menu{
 	display: inline-block;
 	line-height: 10px;
-  color: #fff;
+  color: #FADD34;
   text-decoration: none;
   background-color: transparent;
   padding: 5px;
@@ -75,9 +83,9 @@ a.title-menu{
 }
 
 div#body{
-	position:absolute;
+	position:relative;
 	right:0px;
-	min-height:300px;
+	width: 100%;
 	left:200px;
 }
 
@@ -85,15 +93,19 @@ div#body{
 .color__contacto{
   background: rgba(3,137,171,1);
 }
+.color--boton{
+	background-color: #11876B;
+	text-decoration: none;
+	color: #FADD34;
+	border-radius: 10px;
+	padding: 10px 40px 10px 40px;
+}
 
 .margen__h1{
   margin: 0;
 
 }
-.magen__what{
-  height: 50px;
-  width: 50px;
-}
+
 .imagenes__herramienta{
   height:200PX;
   width: 200PX;
@@ -105,6 +117,12 @@ div#body{
 #boton{
   left: 15%;
   top: 35%;
+}
+.boton__margen{
+	margin-top: 50px;
+}
+.nombre__margen{
+	margin-top: 180px;
 }
 .justificar__abajo{
   top: 300px;
@@ -164,7 +182,7 @@ h3, h1, p, h4{
 
   }
   h3{
-    text-align: center;
+
     top: 200px;
     width: 100%;
   }
