@@ -1,8 +1,10 @@
+body{
+	background-color: #FFFBD4;
+}
 *{
 	margin:0px;
 	padding:0px;
-	font-family: verdana;
-
+	/*color:#bcbcbc;*/
 }
 
 #fondo_presentacion{
@@ -18,51 +20,93 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
 }
 .menu__imagen{
-  width: 64px;
-  height: 64px;
+  width: 30px;
+  height: 30px;
+	color: #48464F;
 }
-.nombre__margen{
-	margin-top: 100px;
+.texto__color--verdeClaro{
+	color: #189D41;
 }
-
+.texto__color--verde{
+	color: #116E2D;
+}
 /*menu lateral*/
 
+div#barra-lateral{
+	position:fixed;
+	width:50px;
+	height:100%;
+	background-color:#2CB234;
+	overflow:hidden;
+	-webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
+}
+
+div#barra-lateral:hover{
+	width:140px;
+}
+
+div#logo-menu{
+	width:25px;
+	height:25px;
+	margin:10px;
+}
+
+div#contenedor-logos-primero{
+	margin-top:100px;
+}
+
+div.contenedor-logos{
+	margin-top: 40px;
+	margin-left: 5px;
+	width:140px;
+	height:40px;
+
+}
+
+div.logo{
+	width:40px;
+	height:50px;
+	float: left;
+}
+
+a.title-menu{
+	display: inline-block;
+	line-height: 10px;
+  color: #FADD34;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 5px;
+  margin-top: 20px;
+	text-align: center;
+}
 
 div#body{
-	position:absolute;
+	position:relative;
 	right:0px;
-	width: 100%;
-	left:200px;
+	width: 50%;
+	left:130px;
 }
+
 
 .color__contacto{
   background: rgba(3,137,171,1);
 }
-
 .color--boton{
 	background-color: #11876B;
+	text-decoration: none;
+	color: #FADD34;
 	border-radius: 10px;
-  padding: 10px 40px 10px 40px;
+	padding: 10px 40px 10px 40px;
 }
 
-
-
-
-
-
-
-}
 .margen__h1{
   margin: 0;
 
 }
-.magen__what{
-  height: 50px;
-  width: 50px;
-}
+
 .imagenes__herramienta{
   height:200PX;
   width: 200PX;
@@ -75,79 +119,18 @@ div#body{
   left: 15%;
   top: 35%;
 }
-.justificar__abajo{
-  top: 300px;
-}
+
 .color__textoNombre{
   color: rgba(3,137,171,1);
 }
 h3, h1, p, h4{
-  font-family:  sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
-.texto__color--amerillo{
-	color: #FFF672;
-}
-.fondo__color--verde{
-
-}
-.fondo__color--verdeFuerte{
-
-}
-
-	/* estilos para el navegador responsivo*/
-
-
-	div#barra-lateral{
-		position:fixed;
-		width:80px;
-		height:100%;
-		background-color: #2CB234;
-		overflow:hidden;
-		-webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
-	}
-
-	div#barra-lateral:hover{
-		width:200px;
-	}
-
-	div#logo-menu{
-		width:30px;
-		height:30px;
-		margin:10px;
-	}
-
-	div#contenedor-logos-primero{
-		margin-top:100px;
-	}
-
-	div.contenedor-logos{
-		margin-top: 70px;
-		margin-left: 5px;
-		width:200px;
-		height:40px;
-
-	}
-
-	div.logo{
-		width:70px;
-		height:50px;
-		float: left;
-	}
-
-	a.title-menu{
-		display: inline-block;
-		line-height: 10px;
-	  color: #FFF672;
-	  text-decoration: none;
-	  background-color: transparent;
-	  padding: 5px;
-	  margin-top: 20px;
-	}
 
 
 /*realizar media @ para texto*/
 
-@media screen  and (max-width: 519px) and (min-width: 200px){
+@media screen  and (max-width: 699px) and (min-width: 200px){
   div#fondo_presentacion {
     height: 40vh;
   }
@@ -171,17 +154,36 @@ h3, h1, p, h4{
   p{
     font-size: 12px;
   }
+	.boton__margen{
+		margin-top: 10px;
+	}
+	.nombre__margen{
+		margin-top: 80px;
+	}
+	.justificar__abajo{
+	  top: 150px;
+	}
 }
-/*@media screen and (max-width: 1024px) and (min-width: 520px){
+
+@media screen and (max-width: 1024px) and (min-width: 700px){
   div#fondo_presentacion {
     height: 80vh;
   }
   h1{
     text-align: center;
   }
-}*/
+	.boton__margen{
+		margin-top: 50px;
+	}
+	.nombre__margen{
+		margin-top: 180px;
+	}
+	.justificar__abajo{
+	  top: 300px;
+	}
+}
 
-@media screen and (max-width: 1024px) and (min-width: 700px){
+@media screen and (min-width: 1024px){
   div#fondo1 {
     height: 80vh;
   }
@@ -191,10 +193,19 @@ h3, h1, p, h4{
 
   }
   h3{
-    text-align: center;
+
     top: 200px;
     width: 100%;
   }
+	.boton__margen{
+		margin-top: 50px;
+	}
+	.nombre__margen{
+		margin-top: 180px;
+	}
+	.justificar__abajo{
+		top: 300px;
+	}
 
 
 }
