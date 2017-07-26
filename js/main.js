@@ -25,33 +25,21 @@ se produce un evento de cambio de tamaño.*/
 })
 
 /*
-(function(){
+$(document).ready(function(){
 
-var desencadenar = $('.menu');
-var cubrir = $('#cubrir');
-var altenarElemento = $('.desplazar');
-var estaCerrado = false;
+    var show = 1;
 
-var cargarPagina = function(){
-  desencadenar.click(menu_deslizado);
-  altenarElemento.click(alternar);
-};
+    $('.show').on('click', function(){
 
-var menu_deslizado = function(){
+        if(show == 1){
+            $('.content-menu').addClass("content-menu2");
+            show = 0;
+        }else{
+            $('.content-menu').removeClass("content-menu2");
+            show = 1;
+        }
 
-  if (estaCerrado == true) {
-    cubrir.hide();/*esconde*/
-  /*} else {
-    cubrir.show();/*muestra*/
-/*  }
-};
 
-var alternar = function(){
-  $('#wrapper').toggleClass('cambiado');
-/*toogleClass: alterna entre agregar y quitar uno o más nombres de clase de los elementos seleccionados.*/
-/*}
+    })
 
-$(document).ready(cargarPagina);
-
-})();
-*/
+})*/
