@@ -24,6 +24,8 @@ se produce un evento de cambio de tamaño.*/
 
 })
 
+
+
 /*
 $(document).ready(function(){
 

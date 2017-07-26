@@ -180,11 +180,12 @@ h3, h1, p, h4{
 
 
     header{
-        display: block;
-
+        display: flex;/*para poder ser flexible a la hora de cambiar de posicion*/
+        z-index: 999999;/*la importancia de la capa*/
     }
 
     .content-menu{
+        z-index: 999999;
         position: fixed;
         width: 100%;
         height: auto;
