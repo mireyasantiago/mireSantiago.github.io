@@ -1,200 +1,36 @@
 *{
-	margin:0px;
-	padding:0px;
-	font-family: verdana;
-
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
 }
-
-#fondo_presentacion{
-  background-image: url("../assets/fondoConoce.jpg");
-}
-#fondo__habilidad{
-  background-image: url("../assets/gris.jpg");
-}
-#fondo__proyecto{
-  background-image: url("assets/whatsap.jpg");
-}
-.fondos{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-}
-.menu__imagen{
-  width: 64px;
-  height: 64px;
-}
-.nombre__margen{
-	margin-top: 100px;
-}
-
-/*menu lateral*/
-
-
-div#body{
-	position:absolute;
-	right:0px;
+main{
 	width: 100%;
-	left:200px;
 }
-
-.color__contacto{
-  background: rgba(3,137,171,1);
+.contenido--menu{
+ width: 100px;
+ background-color: #161616;
 }
-
-.color--boton{
-	background-color: #11876B;
-	border-radius: 10px;
-  padding: 10px 40px 10px 40px;
-}
-
-
-
-
-
-
+.contenido--menu li{
+	list-style: none;
+  text-align: center;
+	padding: 20px;
+	color: white;
 
 }
-.margen__h1{
-  margin: 0;
+.contenido--menu li img{
 
 }
-.magen__what{
-  height: 50px;
-  width: 50px;
-}
-.imagenes__herramienta{
-  height:200PX;
-  width: 200PX;
-}
-.imagen__habilidades{
-  height: 150px;
-  width: 150px;
-}
-#boton{
-  left: 15%;
-  top: 35%;
-}
-.justificar__abajo{
-  top: 300px;
-}
-.color__textoNombre{
-  color: rgba(3,137,171,1);
-}
-h3, h1, p, h4{
-  font-family:  sans-serif;
-}
-.texto__color--amerillo{
-	color: #FFF672;
-}
-.fondo__color--verde{
-
-}
-.fondo__color--verdeFuerte{
-
+.contenido--menu li h4{
+ font-weight: 100;
+ transform: translateY(14px);
 }
 
-	/* estilos para el navegador responsivo*/
 
 
-	div#barra-lateral{
-		position:fixed;
-		width:80px;
-		height:100%;
-		background-color: #2CB234;
-		overflow:hidden;
-		-webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
-	}
 
-	div#barra-lateral:hover{
-		width:200px;
-	}
-
-	div#logo-menu{
-		width:30px;
-		height:30px;
-		margin:10px;
-	}
-
-	div#contenedor-logos-primero{
-		margin-top:100px;
-	}
-
-	div.contenedor-logos{
-		margin-top: 70px;
-		margin-left: 5px;
-		width:200px;
-		height:40px;
-
-	}
-
-	div.logo{
-		width:70px;
-		height:50px;
-		float: left;
-	}
-
-	a.title-menu{
-		display: inline-block;
-		line-height: 10px;
-	  color: #FFF672;
-	  text-decoration: none;
-	  background-color: transparent;
-	  padding: 5px;
-	  margin-top: 20px;
-	}
-
-
-/*realizar media @ para texto*/
-
-@media screen  and (max-width: 519px) and (min-width: 200px){
-  div#fondo_presentacion {
-    height: 40vh;
-  }
-  h1{
-    font-size: 25px;
-    text-align: center;
-    top: 200px;
-    width: 100%;
-  }
-  h3{
-    font-size: 15px;
-    text-align: center;
-    top: 200px;
-
-  }
-  h4{
-    font-size: 13px;
-
-  }
-
-  p{
-    font-size: 12px;
-  }
-}
-/*@media screen and (max-width: 1024px) and (min-width: 520px){
-  div#fondo_presentacion {
-    height: 80vh;
-  }
-  h1{
-    text-align: center;
-  }
-}*/
-
-@media screen and (max-width: 1024px) and (min-width: 700px){
-  div#fondo1 {
-    height: 80vh;
-  }
-  h1{
-    text-align: center;
-
-
-  }
-  h3{
-    text-align: center;
-    top: 200px;
-    width: 100%;
-  }
-
-
+.menu__imagen{
+  width: 30px;
+  height: 30px;
+	color: #48464F;
 }
