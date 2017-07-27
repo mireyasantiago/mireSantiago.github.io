@@ -25,6 +25,10 @@ se produce un evento de cambio de tamaño.*/
 })
 
 
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
 
 /*
 $(document).ready(function(){
