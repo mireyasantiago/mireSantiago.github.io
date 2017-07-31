@@ -1,13 +1,17 @@
 body{
-	background-color: #FFFBD4;
+	background-color: #f0f0f0;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-
 }
+h1, h2{
+
+	font-family: 'Merriweather', serif;
+	color: #2E8B57;
+}
+
 .menu__imagen{
   width: 30px;
   height: 30px;
@@ -40,6 +44,7 @@ header label:hover{
 
 main{
 	width: 100%;
+	padding-bottom: 0;
 }
 
 .content-menu{
@@ -47,7 +52,7 @@ main{
     width: 120px;
     height: 100vh;
     text-align: center;
-    background-color:#116E2D;
+    background-color:#100c08;
 }
 
 .content-menu li{
@@ -65,6 +70,8 @@ main{
 }
 a{
 	text-decoration: none;
+}
+.contenido{
 
 }
 .content-menu span{
@@ -81,7 +88,7 @@ a{
 }
 
 .content-menu li:nth-child(1) span{
-    color: #C37604;
+    color: #2ECC71 ;
 }
 
 .content-menu li:nth-child(2) span{
@@ -89,11 +96,11 @@ a{
 }
 
 .content-menu li:nth-child(3) span{
-    color: #bf1ba9;
+    color: #239B56;
 }
 
 .content-menu li:nth-child(4) span{
-    color: #bf1b1b;
+    color: #5DADE2  ;
 }
 
 
@@ -123,7 +130,9 @@ a{
 .contenido{
     margin-left: 110px;
     padding: 40px;
-    background-color: #FFFBD4;
+    background-color: #f0f0f0;
+		margin-bottom: 0;
+		padding-bottom: 0;
 }
 
 /*estilos para los textos*/
@@ -175,7 +184,7 @@ section{
 .color__textoNombre{
   color: rgba(3,137,171,1);
 }
-h3, h1, p, h4{
+h3, p, h4{
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -216,7 +225,9 @@ div#imagen{
 #fondo__boton{
   background-image: url("../assets/003-multimedia.png");
 }
-
+.nombre__margen{
+	margin-top: 50px;
+}
 
 
 
