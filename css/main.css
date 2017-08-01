@@ -1,13 +1,12 @@
-body{
+/*body{
 	background-color: #f0f0f0;
-}
+}*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 h1, h2{
-
 	font-family: 'Merriweather', serif;
 	color: #2E8B57;
 }
@@ -71,9 +70,7 @@ main{
 a{
 	text-decoration: none;
 }
-.contenido{
 
-}
 .content-menu span{
     font-size: 40px;
 }
@@ -130,7 +127,7 @@ a{
 .contenido{
     margin-left: 110px;
     padding: 40px;
-    background-color: #f0f0f0;
+    
 		margin-bottom: 0;
 		padding-bottom: 0;
 }
@@ -185,7 +182,7 @@ section{
   color: rgba(3,137,171,1);
 }
 h3, p, h4{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Anton';
 }
 
 
@@ -229,9 +226,20 @@ div#imagen{
 	margin-top: 50px;
 }
 
-
-
-
+/*estilos para el footer*/
+li.linkedin i{
+	font-size: 32px;
+	color: black;
+}
+div.lista--contacto li p{
+	display: inline-block;
+}
+div.lista--contacto li img{
+	display: inline-block;
+}
+ul{
+	list-style: none;
+}
 
 
 
