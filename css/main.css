@@ -218,12 +218,6 @@ font-family: 'Oswald', sans-serif;
 }
 
 
-/* estilos para imagen con texto de cortina*/
-div#imagen{
-  width: 200px;
-  height: 200px;
-  background-image: url(assets/Captura1.png);
-}
 .fondos{
   background-size: cover;
   background-repeat: no-repeat;
@@ -241,7 +235,7 @@ div#imagen{
 }
 #primera{
   background-image: url("../assets/hoga1.jpg");
-  width: 100%;
+  width: 90%;
 }
 #fondo__boton{
   background-image: url("../assets/003-multimedia.png");
@@ -271,6 +265,14 @@ div.lista--contacto li img{
 ul{
 	list-style: none;
 }
+blockquote.bigquote {
+  border: none;
+  background: url("../assets/quotes1.png") no-repeat; }
+
+blockquote.bigquote h2.contenido {
+  border: none;
+  background: url("../assets/quotes2.png") no-repeat right bottom; }
+
 
 
 
@@ -281,6 +283,10 @@ ul{
     header{
         display: flex;/*para poder ser flexible a la hora de cambiar de posicion*/
         z-index: 999999;/*la importancia de la capa*/
+    }
+    #primera{
+      background-image: url("../assets/hoga1.jpg");
+      width: 100%;
     }
 
     .content-menu{
@@ -349,12 +355,3 @@ ul{
 
 
 }
-
-
-blockquote.bigquote {
-  border: none;
-  background: url("../assets/quotes1.png") no-repeat; }
-
-blockquote.bigquote h2.contenido {
-  border: none;
-  background: url("../assets/quotes2.png") no-repeat right bottom; }
