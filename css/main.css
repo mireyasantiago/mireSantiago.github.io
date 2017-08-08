@@ -9,6 +9,9 @@ h1, h2, h3{
   color:black;
   font-weight: bold;
 }
+.azul{
+  color:	#7CFC00;
+}
 .row, .container-fluid{
   margin: 0;
   padding: 0;
@@ -27,6 +30,9 @@ h1, h2, h3{
 }
 ul#datos li i{
   margin-top: 5%;
+}
+ul#datos li p{
+  color: #2F4F4F;
 }
 div.lista--contacto p{
 margin-left: 5%;
