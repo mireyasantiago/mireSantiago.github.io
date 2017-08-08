@@ -5,8 +5,9 @@
 h1, h2, h3{
   font-family: 'Alfa Slab One', cursive;
 }
-h3, h2, h4{
-  color: 	#20B2AA;
+ h4{
+  color:black;
+  font-weight: bold;
 }
 .row, .container-fluid{
   margin: 0;
@@ -157,17 +158,32 @@ section{
 
 /*estilos para los textos*/
 .texto__color--verdeClaro{
-	color: #189D41;
+	text-shadow: 1px 1px white, -1px -1px #333;
+  font-size: 3rem;
+  font-family: 'Alfa Slab One', cursive;
 }
 .texto__color--verde{
 	color: #116E2D;
 }
-.color--boton{
+/*.color--boton{
 	background-color: #11876B;
 	text-decoration: none;
 	color: #FADD34;
 	border-radius: 10px;
 	padding: 10px 40px 10px 40px;
+}*/
+
+.estiloBoton{
+  color: #18BC9C;
+  border-color: #18BC9C;
+  font-weight: 900px;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 5px 10px;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 .margen__h1{
@@ -177,7 +193,7 @@ section{
   margin-top: 40px;
 }
 .margen--arriba-seccion{
-  margin-top: 15%;
+  margin-top: 12%;
 }
 .margen--abajo-seccion{
   margin-bottom:  10%;
@@ -190,6 +206,11 @@ section{
 .imagen__habilidades{
   height: 150px;
   width: 150px;
+}
+p.titulo{
+  color: white;
+  font-size: 6.4rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 /*#area__habilidad img{
@@ -269,10 +290,16 @@ blockquote.bigquote {
   border: none;
   background: url("../assets/quotes1.png") no-repeat; }
 
-blockquote.bigquote h2.contenido {
+blockquote.bigquote h3.verde {
   border: none;
   background: url("../assets/quotes2.png") no-repeat right bottom; }
 
+.verde{
+  color: #006400;
+}
+#area__sobre-mi, #area__proyecto{
+  background-color: 	#F5F5F5;
+}
 
 
 
@@ -350,7 +377,9 @@ blockquote.bigquote h2.contenido {
     	margin-top: 5px;
     	list-style: none;
     }
-    
+    .redes{
+      width: 25px;
+    }
 
 
 
