@@ -333,8 +333,10 @@ blockquote.bigquote h3.verde {
         z-index: 999999;/*la importancia de la capa*/
     }
     #primera{
-      background-image: url("../assets/bg-compu.png");
+      background-image: url("../assets/hoga1.jpg");
       width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
 
     .content-menu{
@@ -365,11 +367,11 @@ blockquote.bigquote h3.verde {
         margin-left: 0;
     }
     .tamaño{
-      width: 60px;
-      height: 60px;
+      width: 70px;
+      height: 70px;
     }
     p{
-      font-size: .8rem;
+      font-size:1.3rem;
     }
     h3{
       font-size: 1.5rem;
@@ -386,6 +388,9 @@ blockquote.bigquote h3.verde {
     .texto--chico{
       font-size: 1.5em;
     }
+    .texto-sobreMi{
+      font-size: 3rem;
+    }
     .estiloBoton{
       font-size: 10px;
     }
@@ -396,18 +401,22 @@ blockquote.bigquote h3.verde {
 .tamaño--lapiz{
   display: none;
 }
+.post-body img{
+  display: inline-block;
+  margin-left: 8px;
+  margin-bottom: 30px;
+}
+.content-menu li{
+  padding: 5px 4px 5px 4px;
+	cursor: pointer;
+	margin-top: 5px;
+  margin-left: 3vh;
+	list-style: none;
+ }
+ .redes{
+  width: 25px;
+ }
 
-
-    .content-menu li{
-    	padding: 5px 4px 5px 4px;
-    	cursor: pointer;
-    	margin-top: 5px;
-      margin-left: 3vh;
-    	list-style: none;
-    }
-    .redes{
-      width: 25px;
-    }
 
 
 
