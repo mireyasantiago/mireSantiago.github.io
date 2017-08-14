@@ -380,6 +380,22 @@ blockquote.bigquote h3.verde {
     h1{
       font-size: 2.8rem;
     }
+    .texto--grande{
+      font-size: 3em;
+    }
+    .texto--chico{
+      font-size: 1.5em;
+    }
+    .estiloBoton{
+      font-size: 10px;
+    }
+  .tamaño--gustos {
+    width: 45px;
+    display: inline-block;
+}
+.tamaño--lapiz{
+  display: none;
+}
 
 
     .content-menu li{
@@ -448,4 +464,20 @@ hr {border: 3px solid ;
   text-align: center;
   background-color: green;
   color: green;
+}
+
+
+/* area para las media query*/
+/* Small devices (tablets,  and up) */
+@media (min-width:768px) {
+
+ }
+
+/* Medium devices (desktops,  and up) */
+@media (min-width: 992px) {
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
