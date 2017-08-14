@@ -23,8 +23,11 @@ se produce un evento de cambio de tamaño.*/
     })
 
 })
-
-
+/*para ocultar el menu despues de seleccionar
+$('.navbar-collapse ul li a').click(function(){
+           $('.navbar-toggle:visible').click();
+   });
+*/
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })

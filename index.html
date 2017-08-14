@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Oswald" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Open+Sans+Condensed:300" rel="stylesheet">
+-->
 </head>
 
 <body>
@@ -19,19 +21,23 @@
     </header>
     <div class="content-menu">
       <div class="content-item">
-        <li><span class="glyphicon glyphicon-user" aria-hidden="true"></span><a href="#area__sobre-mi"><h4 class="txt1">Acerca de mi</h4></a></li>
-        <li><span class="glyphicon glyphicon-lock" aria-hidden="true"></span><a href="#area__proyecto"><h4 class="txt2">Proyectos</h4></a></li>
-        <li><span class="glyphicon glyphicon-education" aria-hidden="true"></span><a href="#area__habilidad"><h4 class="txt3">Habilidades</h4></a></li>
-        <li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><a href="#area__contacto"><h4 class="txt4">Contacto</h4></a></li>
+        <li><a href="#area__sobre-mi"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><h4 class="txt1">Acerca de mi</h4></a></li>
+        <li><a href="#area__proyecto"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span><h4 class="txt2">Proyectos</h4></a></li>
+        <li><a href="#area__habilidad"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><h4 class="txt3">Habilidades</h4></a></li>
+        <li><a href="#area__contacto"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><h4 class="txt4">Contacto</h4></a></li>
       </div>
     </div>
-    <div class="contenidos container-fluid  fondos" id="primera">
-      <div class="row " >
+
+
+
+
+    <section class="contenidos container-fluid  fondos" id="primera">
+      <div class="row margen--arriba-seccion margen--abajo-seccion" >
         <div class="col-lg-12">
-          <div class="row margen--arriba-seccion">
-            <div class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2  nombre__margen">
-              <p class="text-center titulo texto__color--verde ">MIREYA LOPEZ SANTIAGO</p>
-              <p class="text-center texto__color--verdeClaro ">FRONT-END</p>
+          <div class="row ">
+            <div class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2 margen--arriba">
+              <h1 class="texto__color--verde texto--grande efecto-nombre">Mireya <br>Lopez Santiago</h1>
+              <p class="efecto-nombre texto--chico">[ Front-End ]</p>
             </div>
           </div>
           <div class="row ">
@@ -44,6 +50,7 @@
             </div>
           </div>
 
+          <!--
           <div class="row nombre__margen margen--abajo-seccion" id="contacto">
             <div class="col-xs-offset-2 col-xs-9 col-lg-10 col-lg-offset-2">
               <div class="row">
@@ -56,46 +63,53 @@
                 <div class="col-xs-3 col-lg-2">
                   <a title="Email" href="mailto:mireyasantiago105@gmail.com"><img src="assets/email.png" class="redes" data-toggle="tooltip" data-placement="bottom" title="Email"></a>
                 </div>
-
               </div>
             </div>
-          </div>
+          </div>-->
+
+
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="container-fluid">
+    <section class="container-fluid padding--abajo padding--arriba ">
       <div class="row" id="area__sobre-mi">
-        <div class="nombre__margen col-xs-10 col-xs-offset-1 col-lg-offset-3 col-lg-7 ">
-          <h3 class="text-center verde nombre__margen">Hola</h3>
-           <blockquote class="bigquote">
-             <h3 class="verde text-center ">Bienvenid@, me
-               llamo Mireya. Soy una chica curiosa, persistente y encantada con el desarrollo Web
-             </h3>
-           </blockquote>
-           <div class="row">
-             <di class="col-xs-6 col-xs-offset-5 col-lg-offset-5 col-lg-6">
-               <img src="assets/saludo1.jpg" alt="" class="animated infinite bounce img-responsive nombre__margen">
-             </di>
-           </div>
-         </div>
-       </div>
-    </div>
+        <hr class="style14">
+        <div class="col-xs-10 col-xs-offset-1 col-lg-offset-2 col-lg-7 ">
+          <h3 class="text-center verde texto--chico margen-arriba-presentacion">Hola</h3>
+          <p class="verde text-center texto--peque margen--abajo-seccion nombre__margen">Bienvenid@, me
+            llamo Mireya. Soy una chica curiosa, persistente y encantada con el desarrollo Web.
+          </p>
+          <p class="text-center">No tengo respuestas para casi nada y sin embargo tengo preguntas para casi todo.</p>
+          <p class="text-center">Groucho Marx</p>
 
-    <div class="container-fluid">
+        </div>
+        <div class="col-lg-offset-1 col-lg-2">
+          <img src="assets/003-bicycle.png" alt="" class=" opacidad tamaño--gustos img-responsive nombre__margen">
+          <img src="assets/002-football.png" alt="" class="tamaño--gustos img-responsive nombre__margen">
+          <img src="assets/004-people.png" alt="" class="opacidad tamaño--gustos img-responsive nombre__margen">
+          <img src="assets/006-hiking.png" alt="" class="tamaño--gustos img-responsive nombre__margen">
+          <img src="assets/005-tree-silhouette.png" alt="" class="opacidad tamaño--gustos img-responsive nombre__margen">
+          <img src="assets/001-two-movie-tickets.png" alt="" class="tamaño--gustos img-responsive nombre__margen">
+        </div>
+
+       </div>
+    </section>
+<!--
+    <section class="container-fluid">
       <div class="row" id="area__habilidad">
         <h3 class="text-center verde nombre__margen">Habilidades</h3>
         <div class="col-lg-12">
           <div class="row">
             <div class="col-xs-10 col-lg-offset-2 col-lg-10">
-              <h4 class="azul margen--arriba-seccion">Herramientas de desarrollo</h4>
+              <h4 class="azul margen--arriba-seccion">Herramientas de desarrollo sobresalir las herramientas</h4>
             </div>
             <div class="row">
               <div class="col-xs-4 col-lg-offset-2 col-lg-3">
                 <img src="assets/logohtml (1).jpg" class="img-responsive tamaño" alt="...">
               </div>
               <div class="col-xs-4  col-lg-3">
-                <img src="assets/logocss.jpg" class="img-responsive" alt="...">
+                <img src="assets/logocss.jpg" class="img-responsive tamaño " alt="...">
               </div>
               <div class="col-xs-4  col-lg-3">
                 <img src="assets/logojavascript.png" class="img-responsive tamaño" alt="...">
@@ -106,7 +120,7 @@
                 <img src="assets/pug.png" class="img-responsive tamaño" alt="...">
               </div>
               <div class="col-xs-3 col-lg-2">
-                <img src="assets/logogit.png" class="img-responsive" alt="...">
+                <img src="assets/logogit.png" class="img-responsive tamaño" alt="...">
               </div>
               <div class="col-xs-3 col-lg-2">
                 <img src="assets/logosass.png" class="img-responsive tamaño" alt="...">
@@ -122,62 +136,95 @@
               <h4 class="azul">Framework</h4>
               <div class="row">
                 <div class="col-xs-offset-2 col-xs-4 col-lg-offset-3 col-lg-3">
-                  <img src="assets/logoBootstrap.png" class="img-responsive " alt="...">
+                  <img src="assets/logoBootstrap.png" class="img-responsive tamaño " alt="...">
                 </div>
                 <div class="col-xs-4 col-md-3">
-                  <img src="assets/logomateralizw.png" class="img-responsive" alt="...">
+                  <img src="assets/logomateralizw.png" class="img-responsive tamaño" alt="...">
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>-->
 
-    <div class="container-fluid" id="area__proyecto">
+    <section class="container-fluid padding--abajo padding--arriba ">
       <div class="row">
+        <hr class="style14">
+        <h2 class="text-center">Habilidades</h2>
+      </div>
+      <div class="row" id="area__habilidad">
+        <div class="col-xs-5 col-lg-offset-2 col-lg-5">
+          <img src="assets/lapiz (2).png" class="img-responsive opacidad tamaño--lapiz"alt="">
+        </div>
+        <div class="col-xs-2 col-lg-1">
+          <div class="post-body">
+            <img src="assets/logojavascript.png" class="img-responsive tamaño" alt="...">
+            <img src="assets/logohtml (1).jpg" class="img-responsive tamaño" alt="...">
+            <img src="assets/logocss.jpg" class="img-responsive tamaño " alt="...">
+            <img src="assets/logojquery.png" class="img-responsive tamaño" alt="...">
+          </div>
+        </div>
+        <div class="col-xs-2 col-lg-1">
+          <div class="post-body">
+            <img src="assets/pug.png" class="img-responsive tamaño opacidad" alt="...">
+            <img src="assets/logosass.png" class="img-responsive tamaño" alt="...">
+            <img src="assets/gulp.jpg" class="img-responsive tamaño opacidad" alt="...">
+          </div>
+        </div>
+
+        <div class="col-lg-1">
+          <div class="post-body">
+            <img src="assets/logoBootstrap.png" class="img-responsive tamaño " alt="...">
+            <img src="assets/logomateralizw.png" class="img-responsive tamaño" alt="...">
+            <img src="assets/responsive.png" class="img-responsive tamaño " alt="...">
+          </div>
+        </div>
+        <div class="col-lg-1">
+          <div class="post-body">
+            <img src="assets/logogit.png" class="img-responsive tamaño" alt="...">
+            <img src="assets/githubGris.png" class="img-responsive tamaño" alt="...">
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- area de mis proyectos-->
+    <section class="container-fluid" id="area__proyecto">
+      <div class="row">
+        <hr class="style14">
         <div class="col-xs-offset-4 col-xs-5 col-lg-offset-2 col-lg-10">
           <h3 class="nombre__margen verde">Mis Proyectos</h3>
         </div>
       </div>
       <div class="row margen--arriba">
         <div class="col-xs-offset-2 col-xs-8 col-lg-offset-2 col-lg-4">
-              <div class="sombra">
-                <img src="assets/Captura1.png" class="img-responsive" alt="img">
+          <div class="sombra">
+            <a href="https://mireyasantiago.github.io/gulp-handlebars/public/index.html">
+              <img src="assets/triangle.png" class="img-responsive" alt="img">
+            </a>
+          </div>
+            <h3 class="text-center">Triangle</h3>
+            <p class="text-center">Creacion de una plantilla de Bootstrap por medio de Pug que es un preprocesador HTML. </p>
+            <div class="row">
+              <div class="col-xs-4 col-lg-offset-5 col-lg-3">
+                <a href="">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  <p> Codigo</p>
+                </a>
               </div>
-                <h3 class="text-center">Freelance</h3>
-                <p class="text-center">Aplicacion de CSS para la creacion de la replica de un
-                  tema de la página Bootstrap
-                  cartera para freelancers.</p>
-                <div class="row">
-                  <div class="col-xs-offset-3 col-xs-4">
-                    <a href="https://mireyasantiago.github.io/Freelancer/">
-                      <i class="fa fa-eye" aria-hidden="true"></i>
-                      <p>Visualizar</p>
-                    </a>
-                  </div>
-                  <div class="col-xs-4">
-                    <a href="">
-                      <i class="fa fa-code" aria-hidden="true"></i>
-                      <p> Codigo</p>
-                    </a>
-                  </div>
-                </div>
             </div>
+        </div>
         <div class="col-xs-offset-2 col-xs-8 col-lg-offset-1 col-lg-4">
           <div class="sombra">
-                <img src="assets/Captura1.png" class="img-responsive" alt="img">
-              </div>
-            <h3 class="text-center">Serpiente</h3>
+            <a href="https://mireyasantiago.github.io/Google-desing/.">
+              <img src="assets/googleDesing.png" class="img-responsive" alt="img">
+            </a>
+          </div>
+            <h3 class="text-center">GoogleDesing</h3>
             <p class="text-center">Creacion de el juego de la serpiente por medio de javascript</p>
             <div class="row">
-              <div class="col-xs-offset-3 col-xs-4 icono">
-                <a href="https://mireyasantiago.github.io/Freelancer/">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
-                  <p>Visualizar</p>
-                </a>
-              </div>
-              <div class="col-xs-4">
+              <div class="col-xs-4 col-lg-offset-5 col-lg-3">
                 <a href="">
                   <i class="fa fa-code" aria-hidden="true"></i>
                   <p> Codigo</p>
@@ -186,35 +233,54 @@
             </div>
           </div>
         </div>
-      <div class="row margen--arriba">
-        <div class="col-xs-offset-2 col-xs-8 col-lg-offset-4 col-lg-4">
-          <div class="sombra">
-            <img src="assets/Captura1.png" class="img-responsive" alt="img">
-          </div>
-            <h3 class="text-center">Pokedex</h3>
-            <p class="text-center">Comsumo del API:pokeapi por medio de una llamada AJAX </p>
-            <div class="row">
-              <div class="col-xs-offset-3 col-xs-4">
-                <a href="https://mireyasantiago.github.io/Freelancer/">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
-                  <p>Visualizar</p>
-                </a>
-              </div>
-              <div class="col-xs-4">
-                <a href="">
-                  <i class="fa fa-code" aria-hidden="true"></i>
-                  <p> Codigo</p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
 
-    <div id="area__contacto" class="container-fluid ">
+        <div class="row margen--arriba">
+          <div class="col-xs-offset-2 col-xs-8 col-lg-offset-2 col-lg-4">
+            <div class="sombra">
+              <a href="https://mireyasantiago.github.io/Freelancer/">
+                <img src="assets/Captura1.png" class="img-responsive" alt="img">
+              </a>
+            </div>
+              <h3 class="text-center">Freelance</h3>
+              <p class="text-center">Aplicacion de CSS para la creacion de la replica de un
+                tema de la página Bootstrap
+                cartera para freelancers.</p>
+              <div class="row">
+                <div class="col-xs-4 col-lg-3 col-lg-offset-5">
+                  <a href="">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <p> Codigo</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          <div class="col-xs-offset-2 col-xs-8 col-lg-offset-1 col-lg-4">
+              <div class="sombra">
+                <a href="https://mireyasantiago.github.io/probando-serpiente.github.io/">
+                  <img src="assets/Captura.png" class="img-responsive" alt="img">
+                </a>
+              </div>
+              <h3 class="text-center">Serpiente</h3>
+              <p class="text-center">Creacion de el juego de la serpiente por medio de javascript</p>
+              <div class="row">
+                <div class="col-xs-4 col-lg-offset-5 col-lg-3">
+                  <a href="">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  <p> Codigo</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="area__contacto" class="container-fluid ">
+
       <div class="row">
+        <hr class="style14">
         <div class="nombre__margen col-xs-8  col-lg-offset-2 col-lg-8">
-          <h3 class="verde">Contáctame :</h3>
+          <h3 class="verde">Contáctame:</h3>
         </div>
       </div>
       <div class="row ">
@@ -238,39 +304,35 @@
           <ul>
             <li>
               <a  title="GitHub" href="https://github.com/mireyasantiago" target="_blank">
-                <img src="assets/github-logo.png" class="img-responsive">
+                <img src="assets/github-logo.png" class="img-responsive" data-toggle="tooltip" data-placement="left" title="Git Hub">
               </a>
-              <p>GitHub</p>
+
             </li>
             <li>
               <a  title="WhatsApp" href="https://api.whatsapp.com/send?phone=5571374772" target="_blank">
-                <img src="assets/what.png"alt="#" class="img-responsive">
+                <img src="assets/what.png"alt="#" class="img-responsive" data-toggle="tooltip" data-placement="left" title="Whatsapp">
               </a>
-              <p>WhatsApp</p>
+
             </li>
             <li>
               <a  title="Email" href="mailto:mireyasantiago105@gmail.com">
-                <img src="assets/email.png" class="img-responsive">
+                <img src="assets/email.png" class="img-responsive" data-toggle="tooltip" data-placement="left" title="Email">
               </a>
-              <p>Gmail</p>
+
             </li>
             <li class="linkedin">
               <a  title="Email" href="https://www.linkedin.com/in/mireya-lopez-santiago/">
-                <i class=" fa fa-linkedin" aria-hidden="true"></i>
+                <i class=" fa fa-linkedin" aria-hidden="true" data-toggle="tooltip" data-placement="left" title="Linkedin"></i>
               </a>
-              <p>Linkedin</p>
+
             </li>
           </ul>
         </div>
       </div>
       <div class="row">
-        <p class="text-center">No tengo respuestas para casi nada y sin embargo tengo preguntas para casi todo.</p>
-        <p class="text-center">Groucho Marx</p>
-      </div>
-      <div class="row">
         <img src="assets/footerverde.jpg" id="pasto" alt="">
       </div>
-    </div>
+    </section>
 
    </main>
 
