@@ -1,4 +1,4 @@
-.post-body img {
+.efecto--sombra img {
 border-radius: 50% 0; /* Borde redondeado */
 box-shadow: 0px 0px 15px #000; /* Sombra */
 padding:15px; /* Espacio entre la imagen y el borde */
@@ -8,7 +8,11 @@ background:#FFF; /* Color de fondo que se ve entre el espacio */
 -o-transition: all 1s;
 margin-bottom: 10px;
 }
-.post-body img:hover {
+.texto-sobreMi{
+  font-size: 3.5rem;
+  color:#778899;
+}
+.efecto--sombra img:hover {
 border-radius:0; /* Con esto quitamos el borde redondeado */
 -moz-transition: all 1s;
 -webkit-transition: all 1s;
@@ -39,6 +43,9 @@ text-align: center;
 }
 .texto--peque{
   font-size: 2.5em;
+}
+.texto--mediano{
+  font-size: 3.6em;
 }
 button.estiloBoton{
   margin-bottom: 25%;
@@ -112,8 +119,8 @@ margin-top: 5%;
   box-shadow: 8px 10px 10px 0;
 }
 .tamaño{
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
 }
 .tamaño--gustos{
   width: 35%;
@@ -124,6 +131,9 @@ margin-top: 5%;
 /* area de colores*/
 .verde{
   color: #006400;
+}
+.verde--pasto{
+  color:MediumSeaGreen;
 }
 .fondo-verde{
   background-color:#F0FFFF;
@@ -150,18 +160,6 @@ margin-top: 5%;
 }
 
 
-
-
-/*area de estilos para las listas*/
-ul#datos li i{
-  margin-top: 12%;
-  display: inline-block;
-}
-ul#datos li p{
-  color: #2F4F4F;
-  margin-right: 10px;
-  display: inline-block;
-}
 /* estilos para las imagenes*/
 .menu__imagen{
   width: 30px;
@@ -183,7 +181,7 @@ ul#datos li p{
 header{
 	width: 100%;
 	height: 60px;
-	background-color:#2CB234;
+	background-color:#2f2f2f;
 	position: fixed;
 	display: none;
 	top: 0;
@@ -230,9 +228,9 @@ font-family: 'Oswald', sans-serif;
 .content-menu{
     position: fixed;
     width: 10%;
-    height: 100vh;
+    height: 100%;
     text-align: center;
-    background-color:#100c08;
+    background-color:#2f2f2f;
 }
 
 .content-menu li{
@@ -256,12 +254,12 @@ a{
   margin-top: 20px;
   font-size: 18px;
   font-weight: 100;
-  color: #FADD34;
+  color: #76ffb9;
   /*transform: translateX(-200px);
   transition: all 300ms;*/
 }
 .content-menu li span{
-  color:#098c14;
+  color: #2b9500;
 }
 
 
@@ -302,7 +300,6 @@ li.linkedin i{
 	color: black;
   margin-top: 5%;
 }
-
 div.lista--contacto li img{
 	display: inline-block;
   margin-top: 5%;
@@ -310,7 +307,15 @@ div.lista--contacto li img{
 ul{
 	list-style: none;
 }
-/*area de estilos de comillas*/
+/*area de estilos de detalles*/
+hr {border: 3px solid ;
+  border-radius: 300px/10px;
+  height: 0px;
+  width: 60%;
+  text-align: center;
+  background-color: 	#20B2AA;
+  color: 	#20B2AA;
+}
 blockquote.bigquote {
   border: none;
   background: url("../assets/quotes1.png") no-repeat; }
@@ -320,18 +325,19 @@ blockquote.bigquote h3.verde {
   background: url("../assets/quotes2.png") no-repeat right bottom; }
 
 
-
-
-
-
-
+/* area para las media query*/
 @media screen and (max-width:983px){
-
-
     header{
-        display: flex;/*para poder ser flexible a la hora de cambiar de posicion*/
-        z-index: 999999;/*la importancia de la capa*/
+    	background-color:#2f2f2f;
+    	top: 0;
+      display: flex;/*para poder ser flexible a la hora de cambiar de posicion*/
+      z-index: 999999;/*la importancia de la capa*/
     }
+    header label{
+      font-size: 30px;
+    	color: 	#20B2AA;
+    }
+
     #primera{
       background-image: url("../assets/hoga1.jpg");
       width: 100%;
@@ -388,8 +394,11 @@ blockquote.bigquote h3.verde {
     .texto--chico{
       font-size: 1.5em;
     }
+    .texto--mediano{
+      font-size: 2.8em;
+    }
     .texto-sobreMi{
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     .estiloBoton{
       font-size: 10px;
@@ -401,9 +410,9 @@ blockquote.bigquote h3.verde {
 .tamaño--lapiz{
   display: none;
 }
-.post-body img{
+.efecto--sombra img{
   display: inline-block;
-  margin-left: 8px;
+  margin-left: 2.3%;
   margin-bottom: 30px;
 }
 .content-menu li{
@@ -417,76 +426,54 @@ blockquote.bigquote h3.verde {
   width: 25px;
  }
 
+}
 
+@media screen and (max-width: 1200px) and (min-width: 983px){
+  .tamaño{
+    width: 65px;
+    height: 65px;
+  }
+  .efecto--sombra img{
+    padding: 8px;
+  }
+  .texto--chico{
+    font-size:2.5em;
 
+  }
+  .texto--grande{
+    font-size:5em;
+  }
+  ul#datos li p {
+    font-size: 1.2em;
+    display: inline-block;
+    margin-left: 15px;
+  }
+  ul#datos{
+    margin-top: 40px;
+  }
+  div.lista--contacto ul li{
+    margin-bottom: 10px;
+  }
 
 }
 
 
-
-
-
-
-
-
-
-/*para efecto de transition del texto dentro del menu
-.content-menu:hover .txt1{
-    transform: translateX(0px);
-    transition: all 100ms;
-}
-
-.content-menu:hover .txt2{
-    transform: translateX(0px);
-    transition: all 200ms;
-}
-
-.content-menu:hover .txt3{
-    transform: translateX(0px);
-    transition: all 300ms;
-}
-
-.content-menu:hover .txt4{
-    transform: translateX(0px);
-    transition: all 400ms;
-}
-
-.color--boton{
-	background-color: #11876B;
-	text-decoration: none;
-	color: #FADD34;
-	border-radius: 10px;
-	padding: 10px 40px 10px 40px;
-}
-#area__habilidad img{
-  border-width:8px;
-  border-style:ridge;
-  border-radius: 20px;
-  width: 100px;
-  margin-top: 50px;
-}*/
-
-hr {border: 3px solid ;
-  border-radius: 300px/10px;
-  height: 0px;
-  width: 60%;
-  text-align: center;
-  background-color: green;
-  color: green;
-}
-
-
-/* area para las media query*/
-/* Small devices (tablets,  and up) */
-@media (min-width:768px) {
-
- }
-
-/* Medium devices (desktops,  and up) */
-@media (min-width: 992px) {
-   }
-
-/* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  ul#datos li i{
+    margin-top: 12%;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  ul#datos li p{
+    color: #2F4F4F;
+    margin-left:  30px;
+    display: inline-block;
+    font-size: 1.5em;
+  }
+  div.lista--contacto ul li{
+    margin-bottom: 12px;
+  }
+
 
 }
