@@ -12,6 +12,7 @@ margin-bottom: 10px;
   font-size: 3.5rem;
   color:#778899;
 }
+
 .efecto--sombra img:hover {
 border-radius:0; /* Con esto quitamos el borde redondeado */
 -moz-transition: all 1s;
@@ -324,7 +325,9 @@ blockquote.bigquote h3.verde {
   border: none;
   background: url("../assets/quotes2.png") no-repeat right bottom; }
 
-
+.imagen-guitarra{
+  width: 100%;
+}
 /* area para las media query*/
 @media screen and (max-width:983px){
     header{
